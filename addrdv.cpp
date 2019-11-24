@@ -33,5 +33,5 @@ void AddRdv::on_buttonBox_accepted()
 
     QSqlQuery qr;
     qr.prepare("INSERT INTO RDV (cin_pat, date_rdv, type_rdv ) VALUES ('"+cin+"', '"+date+heure+"', '"+type+"')");
-    emit Ajouter();
+    //emit Ajouter();
 }

@@ -4,6 +4,8 @@
 
 Rdv::Rdv(){}
 
+Rdv::~Rdv(){}
+
 Rdv::Rdv(QString Cin, QString type_rdv, QString date){
     this->Cin = Cin;
     this->type_rdv = type_rdv;
